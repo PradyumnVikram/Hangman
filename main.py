@@ -1,5 +1,6 @@
 __author__ = 'Pradyumn Vikram'
-#images taken from tech with tim
+#image data taken from tech with tim
+#https://drive.google.com/drive/folders/1VXFa0yNynZNFN-m6VoOM-Ri5gkSi89ym
 
 import pygame
 import os
