@@ -1,7 +1,8 @@
 __author__ = 'Pradyumn Vikram'
-#image data taken from tech with tim
+#image data taken from tech with tim - 
 #https://drive.google.com/drive/folders/1VXFa0yNynZNFN-m6VoOM-Ri5gkSi89ym
-
+#words.py taken from - 
+#https://github.com/kiteco/python-youtube-code/tree/master/build-hangman-in-python
 import pygame
 import os
 from words import word_list
