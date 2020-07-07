@@ -3,6 +3,7 @@ __author__ = 'Pradyumn Vikram'
 #https://drive.google.com/drive/folders/1VXFa0yNynZNFN-m6VoOM-Ri5gkSi89ym
 #words.py taken from - 
 #https://github.com/kiteco/python-youtube-code/tree/master/build-hangman-in-python
+
 import pygame
 import os
 from words import word_list
@@ -130,6 +131,7 @@ def main():
         if won(chars):
             letters = alphabets
             points += 1
+            img_id = 0
             chosen = False
             
         elif img_id == 6:
@@ -143,4 +145,3 @@ def main():
         refresh_window(win, img_id, imgs, chars, letters, points)
 main()
 #line
-
